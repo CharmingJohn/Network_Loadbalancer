@@ -13,7 +13,7 @@ Type=~~notify~~ -> Type=**forking**
 - 기존
 ```
 frontend tts_front
-    bind 10.211.70.247:50052 proto h2
+    bind **.***.**.***:50052 proto h2
     capture request header in.sessionid len 100
     default_backend tts_servers
 ```
