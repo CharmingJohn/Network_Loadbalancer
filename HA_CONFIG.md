@@ -269,7 +269,7 @@ Type=notify
 ### 2.3 HAProxy 테스트 결과
 
 ```log
-<134>Nov 13 23:14:09 localhost.localdomain haproxy[24843]: 10.122.65.224:50797 [13/Nov/2020:23:13:52.024] tts_front tts_servers/tts1 0/0/8/17506/+17514 200 +1141 - - ---- 4/4/4/2/0 0/0 {pcm} "POST http://IP/server/Service HTTP/2.0"
+<134>Nov 13 23:14:09 localhost.localdomain haproxy[24843]: **.***.**.***:50797 [13/Nov/2020:23:13:52.024] tts_front tts_servers/tts1 0/0/8/17506/+17514 200 +1141 - - ---- 4/4/4/2/0 0/0 {pcm} "POST http://IP/server/Service HTTP/2.0"
 ```
 <img src="https://cdn.haproxy.com/wp-content/uploads/2019/02/image2.png" width="80%">
 
